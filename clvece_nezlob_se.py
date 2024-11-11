@@ -46,14 +46,18 @@ def total_throw(roll_bias: float):
 
 
 
-def move_figure(figure_pos: int):
-    pass
+def play_game(n: int, roll_bias: float, output: bool):
     """
+    posun figurku o pocet poli dany hodem kostkou pri pravdepodobnosti sestky roll_bias. Kazde 13. pole je zaklete a
+    vraci figurku na start.
 
-    :param figure_pos: vstupni pozice figurky
-    :param total_throw: celkovy hod
-    :return: figure_pos -
+    :param n: pocet poli
+    :param roll_bias: pravdepodobnost hodu cisla 6
+    :param output: bool - True = tiskni prubeh hry
+    :return:
     """
+    figure_pos = 1
+
 
 
 #print(vodici_pole(42))
